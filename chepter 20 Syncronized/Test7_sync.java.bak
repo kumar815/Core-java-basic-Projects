@@ -1,0 +1,51 @@
+//nonstatic multiple thread  execution flow
+//used to synchronized keyword
+class Addition{
+	private int x;
+	private int y;
+	
+	public synchronized void add(int x, int y) {
+		this.x = x;
+		this.y = y;
+		try{ 
+		Thread.sleep(2000);
+		}
+		catch(InterruptedException e){		
+		int res = this.x + this.y;
+		System.out.println(Thread.currentThread().getName() + "result:"+ res);
+		}
+	}
+}
+class A1Thread extends Thread{
+	public A1Thread(Addition a){
+		this.a = a;
+	}
+		//@Override
+	public void run(){
+	System.out.println("a1");
+
+	}
+}
+class A2Thread extends Thread{
+	public A2Thread(Addition a){
+		this.a = a;
+	}
+		//@Override
+	public void run(){
+		System.out.println("a2 ");
+		
+	}
+}
+public class Test7_sync{
+	   public static void main(String[] args) {
+		   System.out.println("main start");
+		Addition a = new Addition();
+		
+		A1Thread th1 = a;
+		A2Thread th2 = a;
+		
+		th1.start();
+		th2.start();
+		System.out.println("main end");
+	}
+}

@@ -1,0 +1,12 @@
+//static Defult Values Progrme
+class Bang{
+static byte Banalore;
+static short Singapoor;
+static int  Ianguage;
+static long  Languages;
+static float Fans;
+static double Dance;
+static char Can;
+static boolean Born; 
+static String Stant;
+}

@@ -1,0 +1,42 @@
+/*author : Anand
+ varsion : Java 19v
+ Date    : 24/02/2023
+ Time    : 9:32:00
+ implementing to logic operations*/
+
+//abbserve this programm
+// this is main class and method executed but not corret design
+//code not resuablity and all methods derectly executed
+//this is Static nature
+//Basic Program worte Roung Design example 1
+class Game{
+	public static void main(String[] args){
+		//car Details addition logic
+		int car_Type   = 100;
+		int car_Store  = 20;
+		int car_Branch = car_Type+car_Store;
+		System.out.println(car_Branch);
+		//car Details Subtraction logic
+		int car_min   = 100;
+		int car_max  = 200;
+		int car_both = car_min - car_max;
+		System.out.println(car_both);
+		//car Details Multification logic
+		int car_import  = 100;
+		int car_export  = 2;
+		int car_india   = car_import * car_export;
+		System.out.println(car_india);
+		//car Details division logic
+		int car_parts = 10;
+		int car_loc  = 2;
+		int car_car  = car_parts / car_loc;
+		System.out.println(car_car);
+		//car Details Module logic
+		int car_Buy  = 200;
+		int car_Sale = 10;
+		int car_in   = car_Buy "%" car_Sale;
+		System.out.println("sale %:" + car_in);
+	}
+}
+
+	

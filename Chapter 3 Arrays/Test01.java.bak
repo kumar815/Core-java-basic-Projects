@@ -1,0 +1,13 @@
+/*author : Anand©
+ varsion : Java 19v
+ Date    : 24/02/2023
+ Time    : 9:32:00
+ implementing to logic operations*/
+//problam of primitive variable
+//data types
+class Test03{
+	public static void main(String[] args){
+		//storing multiple values
+		System.out.println("Hello World");
+	}
+}

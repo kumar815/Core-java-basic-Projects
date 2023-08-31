@@ -1,0 +1,16 @@
+//static Defult Values Progrme
+//
+class Defult{
+  public static void main(String[] args){
+    Bang b1=new Bang();
+    System.out.println(b1.Banalore);
+    System.out.println(b1.Singapoor);
+    System.out.println(b1.Ianguage);
+    System.out.println(b1.Languages);
+    System.out.println(b1.Fans);
+    System.out.println(b1.Dance);
+    System.out.println(b1.Can);
+    System.out.println(b1.Born);
+	System.out.println(b1.Stant);
+    }
+    }

@@ -1,0 +1,25 @@
+//static and non static method implementing
+class Course{
+//can't use static main inside must be Declare Statement
+String C_Name;
+long Mobile_Num;
+String Email_Id;
+//must be use static defult store values in memory
+//All Allpication defult this Values.
+static int Pincode=560068;
+static int course_id=10201;
+static String course_Name="Core Java";
+static double Fee=3500;
+}
+// Defualt Values:-
+/*
+byte	= 0
+short	= 0
+int		= 0
+long	= 0L
+float	= 0f
+double	= 0.0
+char	= 0.0d or \u000 
+boolean	= false
+String(any object)=Null
+*/

@@ -1,0 +1,12 @@
+class Example{
+int x;
+int y;
+void set(){
+	int x=p;
+	int y=q;
+}
+void display(){
+	System.out.println(x);
+	System.out.println(y);
+}
+}

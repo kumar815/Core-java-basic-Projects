@@ -1,0 +1,27 @@
+class Collage{
+public static void main(String[] args){
+Student s1=new Student();
+Student s2=new Student();
+System.out.println("Frist Student Details");
+s1.StuId   = 101;
+s1.StuName = "Meera";
+s1.StuSub  = "Scince";
+s1.Amount  = 35000;
+System.out.println("Print Frist Student Instance Details");
+System.out.println("StuId\t\t:"    + s1.StuId);
+System.out.println("StuName\t\t:"  + s1.StuName);
+System.out.println("StuSub\t\t:"   + s1.StuSub);
+System.out.println("StuAmount\t:"+ s1.Amount);
+
+System.out.println("\nSecond Student Details");
+s2.StuId   = 102;
+s2.StuName = "Bheema";
+s2.StuSub  = "Social";
+s2.Amount  = 25000;
+System.out.println("Print Second Student Instance Details");
+System.out.println("StuId\t\t:"  + s2.StuId);
+System.out.println("StuName\t\t:" + s2.StuName);
+System.out.println("StuSub\t\t:"   + s2.StuSub);
+System.out.println("StuAmount\t:"+ s2.Amount);
+}
+}

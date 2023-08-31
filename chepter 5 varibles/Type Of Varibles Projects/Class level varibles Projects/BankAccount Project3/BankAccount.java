@@ -1,0 +1,11 @@
+//class level varibles
+class BankAccount{
+String Bank_Name;
+long Account_Number;
+String Account_Holder_Name;
+String Branch;
+String Ifsc_Code;
+String Mobile_number;
+double Customar_Id;
+double Deposite_amount;
+}

@@ -1,0 +1,19 @@
+class Student{
+int Sno;
+String Sname;
+void setSno(int Sno){
+this.Sno=Sno;
+}
+	int getSno(){
+	return this.Sno;
+}
+void setName(String Sname){
+	this.Name=sName;
+}
+	String getSName(){
+		return this.Sname;
+	}
+void display (){
+	System.out.println(Sno +" "+  Sname);
+}
+}

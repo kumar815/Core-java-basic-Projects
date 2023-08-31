@@ -1,0 +1,16 @@
+class Buying{
+static int    Buy_Id;
+static String Buy_Name;
+static String Buy_Location;
+static String Project_BluePrint;
+long   Contact_Number;
+static String Email_Id;
+static String Address;
+static double Advance_Amount;
+static String time;
+static String Loantype;
+static String Bank_Name;
+static long   Total_Amount;
+}
+
+

@@ -1,0 +1,7 @@
+class GameAdd{
+	public static void main(String[] args){
+		GameAddition b=new GameAddition();
+GameAddition.b(12,13);
+	}
+}
+	
